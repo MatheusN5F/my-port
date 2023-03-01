@@ -17,7 +17,9 @@ const Header: React.FC = () => {
       <nav>
         <ul>
           <li>
-            <a className="fixed" href="#Home">Home</a>
+            <a className="fixed" href="#Home">
+              Home
+            </a>
           </li>
           <li>
             <a>Skills</a>

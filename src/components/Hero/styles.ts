@@ -5,106 +5,84 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 
-
 export const IconGIT = styled(AiFillGithub)`
   color: #9d4edd;
   font-size: 1.3em;
-  width: auto;
-  height: auto;
   cursor: pointer;
 `;
 
 export const IconLinkd = styled(AiOutlineLinkedin)`
   color: #9d4edd;
   font-size: 1.3em;
-  width: auto;
-  height: auto;
   cursor: pointer;
+  text-align: center;
 `;
 
 export const IconYt = styled(AiOutlineYoutube)`
   color: #9d4edd;
   font-size: 1.3em;
-  width: auto;
-  height: auto;
   cursor: pointer;
 `;
 
 export const IconInsta = styled(AiOutlineInstagram)`
+  display: flex;
   color: #9d4edd;
   font-size: 1.3em;
-  width: auto;
-  height: auto;
   cursor: pointer;
+  text-align: center;
 `;
 
 export const IconTwitt = styled(AiOutlineTwitter)`
   color: #9d4edd;
   font-size: 1.3em;
-  width: auto;
-  height: auto;
   cursor: pointer;
 `;
 
 export const HeroStyle = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3em;
-  gap: 3em;
-  margin-bottom: 6em;
-  & .about {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 50%;
-    gap: 1em;
-  }
-  & .about > h1 {
-    font-style: normal;
+  & section.title div.title-div div.title-container h2 {
+    font-size: 22px;
     font-weight: 700;
-    font-size: 2.3em;
-    color: white;
+    line-height: 26px;
   }
-  & .about > p {
-    line-height: 1.2em;
+  & section.title div.title-div div.title-container h3 {
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
-
-    /* Preto/100% */
-
+    font-size: 14px;
+    line-height: 16px;
+  }
+  & section.title div.title-div div.title-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+  }
+  .title-container > ul > li > a{
+    display: inline-flex;
+    margin: 0.5em;
+    align-items: center;
+  }
+  & section.title img.profile {
+    display: flex;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  & .section-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  }
+  & a {
     color: #ccc;
   }
-  & .links,
-  span {
-    color: #9d4edd;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0em;
-    gap: 0.5em;
+  & h3 {
+    color: #ccc;
   }
-  img {
-    width: 20em;
-    height: 20em;
-    border-radius: 50%;
-  }
-  .imgdiv  {
-    background-color: #9d4edd;
-    width: 20.5em;
-    height: 20em;
-    border-radius: 50%;
-
-  }
-  & strong {
-    font-weight: bold;
-  }
-  & em {
-    color: #9d4edd;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
+  & h1 {
+    color: whitesmoke;
   }
 `;

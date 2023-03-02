@@ -1,49 +1,45 @@
 import React from "react";
 import Image from "next/image";
 
-import { Container, Icon } from "./styles";
+import { Headin} from "./styles";
 
 const Header: React.FC = () => {
   return (
-    <Container id="Home">
-      <Image
-        src={"/Logo.svg"}
-        width={100}
-        style={{ width: 100 }}
-        height={60}
-        quality={100}
-        alt={""}
-      ></Image>
-      <nav>
-        <ul>
-          <li>
-            <a className="fixed" href="#Home">
-              Home
-            </a>
-          </li>
-          <li>
-            <a>Skills</a>
-          </li>
-          <li>
-            <a>Works</a>
-          </li>
-          <li>
-            <a>Students</a>
-          </li>
-          <li>
-            <a href="#About">About me</a>
-          </li>
-          <li>
-            <a>Contact</a>
-          </li>
-          <li>
-            <p>
-              <Icon />
-            </p>
-          </li>
-        </ul>
-      </nav>
-    </Container>
+      <div className="Container">
+    <Headin>
+        <section className="navbar">
+          <header>
+            <Image src={"/Logo.svg"} width={30} height={30} alt="" />
+            <h3 className="menu-title">MatheusN5F</h3>
+          </header>
+          <nav>
+            <ul className="menu-list">
+              <li className="menu-list-item">
+                <a href="#sobremim">Sobre mim</a>
+              </li>
+              <li className="menu-list-item">
+                <a href="#skills">Skills</a>
+              </li>
+              <li className="menu-list-item">
+                <a href="#hobbies">Hobbies</a>
+              </li>
+              <li className="menu-list-item">
+                <a href="#formacao">Formações e Cursos</a>
+              </li>
+              <li className="menu-list-item">
+                <a href="#xp">Experiência</a>
+              </li>
+              <li className="menu-list-item">
+                <a href="#contato">Contato@fulana.com</a>
+              </li>
+            </ul>
+            <li className="menu-list-item-c">
+              <a href="#contato">contato@fulana.com</a>
+            </li>
+          </nav>
+        </section>
+    </Headin>
+      </div>
   );
 };
 

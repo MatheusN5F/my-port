@@ -4,15 +4,28 @@ import { Aboutme } from "./styles";
 
 const About: React.FC = () => {
   return (
-    <Aboutme id="About">
-      <h1>Sobre mim.</h1>
-      <p>
-        Atualmente estou cursando ONE Oracle Next Education um Programa com
-        parceria com a Alura. Apaixonado por tecnologia desde de novo, contato
-        com php aos 13 anos. Curto muito Calistenia, Desafios de codigos.
-        Ex.Plugin maker.
-      </p>
-    </Aboutme>
+    <div className="Container">
+      <Aboutme>
+      <section className="about">
+        <div className="about-container">
+          <h3>Sobre mim</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque velit velit, volutpat semper dignissim dictum,
+            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
+            potenti. Ut semper sagittis ligula et lacinia.{" "}
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque velit velit, volutpat semper dignissim dictum,
+            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
+            potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis
+            venenatis, egestas metus vitae, aliquet metus.
+          </p>
+        </div>
+      </section>
+      </Aboutme>
+    </div>
   );
 };
 

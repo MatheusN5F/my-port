@@ -34,7 +34,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body style={{ background: "#121214", width: "100%" }}>
+        <body style={{ background: "#121214"}}>
           <Main />
           <NextScript />
         </body>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Icon } from "../Header/styles";
 
 // import { Container } from './styles';
 
@@ -34,9 +33,6 @@ const Footer: React.FC = () => {
               <a>Contact</a>
             </li>
             <li>
-              <p>
-                <Icon />
-              </p>
             </li>
           </ul>
         </nav>

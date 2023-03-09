@@ -5,7 +5,7 @@ Este é o repositório do meu portfólio pessoal, construído com Next.js e Styl
 
 ## Acesso ao site
 
-O site pode ser acessado através do link: [https://https://matheusn5f.com.br](https://https://matheusn5f.com.br)
+O site pode ser acessado através do link: [https://matheusn5f.com.br](https://matheusn5f.com.br)
 
 ## Estrutura do repositório
 
@@ -60,7 +60,7 @@ This is the repository of my personal portfolio, built with Next.js and Styled C
 
 ## Accessing the website
 
-The website can be accessed through the link: [https://https://matheusn5f.com.br](https://https://matheusn5f.com.br)
+The website can be accessed through the link: [https://matheusn5f.com.br](https://matheusn5f.com.br)
 
 ## Repository Structure
 

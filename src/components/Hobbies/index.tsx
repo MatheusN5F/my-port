@@ -5,54 +5,38 @@ import React from "react";
 const Hobbies: React.FC = () => {
   return (
     <div>
-      <h1>Skills</h1>
-      <div>
-        <span>
-          <div>
-            <p>Php</p>
+      <section className='hobbies-section' id='hobbies'>
+        <h3 className="section-title">Hobbies</h3>
+        <div className="hobbies-line">
+          <div className="hobbies-box">
+            <ul>
+              <li><div className="icon"></div></li>
+              <li>Programar.</li>
+            </ul>
           </div>
-        </span>
-        <span>
-          <div>
-            <p>Javascript</p>
+
+          <div className="hobbies-box">
+            <ul>
+              <li><div className="icon"></div></li>
+              <li>Programar.</li>
+            </ul>
           </div>
-        </span>
-        <span>
-          <div>
-            <p>NodeJs</p>
+
+          <div className="hobbies-box">
+            <ul>
+              <li><div className="icon"></div></li>
+              <li>Programar.</li>
+            </ul>
           </div>
-        </span>
-        <span>
-          <div>
-            <p>Typescript</p>
+
+          <div className="hobbies-box">
+            <ul>
+              <li><div className="icon"></div></li>
+              <li>Programar.</li>
+            </ul>
           </div>
-        </span>
-        <span>
-          <div>
-            <p>NextJS</p>
-          </div>
-        </span>
-        <span>
-          <div>
-            <p>ExpressJS</p>
-          </div>
-        </span>
-        <span>
-          <div>
-            <p>PostgreSQL</p>
-          </div>
-        </span>
-        <span>
-          <div>
-            <p>MongoDb</p>
-          </div>
-        </span>
-        <span>
-          <div>
-            <p>MySQL</p>
-          </div>
-        </span>
-      </div>
+        </div>
+      </section>
     </div>
   );
 };

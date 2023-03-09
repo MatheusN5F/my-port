@@ -69,7 +69,7 @@ export const Skill = styled.div`
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 & section.skills div.skills-line div.skills-box {
     display: flex;
@@ -77,14 +77,19 @@ export const Skill = styled.div`
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-    background-color: #fbfbfb;
-    margin: 22px 0 22px 0;
+    background-color: #000000;
+    margin: 22px 0.5px 22px 0;
     width: 120px;
     height: 118px;
 }
 & section.skills div.skills-line div.skills-box ul {
     margin: 0;
     padding: 0;
-
+}
+& h1 {
+  color: whitesmoke;
+}
+& li {
+  color: #ccc;
 }
 `;
